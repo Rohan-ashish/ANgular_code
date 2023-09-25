@@ -44,3 +44,16 @@ while (i <= num) {
 
 console.log(`Factorial of ${num} is ${factorial}`);
 
+
+
+
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(77);
+console.log(`temp in celsius is ${value}`);
+
+//let value2 = let value = toCelsius(108);
+
+
