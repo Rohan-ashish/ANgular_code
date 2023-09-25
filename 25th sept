@@ -1,0 +1,23 @@
+//while(__boolean condition__){
+    //code is repeated 
+    
+//}
+
+//code runs
+
+/*let userInput;
+while(true){
+    userInput = prompt("please enter a number");
+    if(!isNaN(userInput) && Number(userInput)>0){
+        break;
+    }
+    console.log("invalid input");
+}
+*/
+let text="";
+let i = 0;
+while(i<5){
+    text+= "the number is" + i;
+    i++;
+    console.log(text);
+}
