@@ -91,7 +91,21 @@ fullName: function(){
 //display the data
 document.getElementById("id1").innerHTML = employee.fullName();
 
+const person = {
+fname:"hari",
+lname:"prasad",
+age: 23
+};
 
+let string= "";
+
+for(let x in person){
+  string+=person[x]+ " ";
+}
+
+document.getElementById("id1").innerHTML = string;
+
+    </script>
 
     </script>
   </body>
