@@ -1,0 +1,44 @@
+const fruits = ["apple","guava","litchi","mango"];
+        //            0      1        2       3
+console.log(fruits[2]);
+
+//another way of declaration
+const fruits2 = [];
+fruits[0] = "fruit1";
+fruits[1] = "fruit2";
+fruits[2] = "fruit3";
+console.log(fruits2);
+
+//new keyword
+
+const cars = new Array("audi","skoda","bmw");
+cars[0]= "merc";
+console.log(cars);
+
+//toString  => convert array into string
+
+const toys = ["bat","football","beyBlade"];
+StringToys = toys.toString();
+console.log(typeof(StringToys));
+
+let length =  toys.length;
+console.log(length);
+
+
+
+//Array Properties
+//length()
+//sort()
+
+
+//looping through array elements
+
+const clothes = ["pants","shirts","chinos"];
+let length1 =  clothes.length;
+for(let i = 0;i< length1;i++){
+    console.log(clothes[i]);
+}
+
+
+
+
